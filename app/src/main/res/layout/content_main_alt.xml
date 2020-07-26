@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parent.contentLayout"
+    android:background="#00000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.core.DashboardActivity"
+    tools:showIn="@layout/app_bar_dashboard">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/viewParent.headerText"
+                    android:layout_gravity="bottom"
+                    android:text="School \nEducation" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/hero" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorTeal"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_maths" />
+
+                            <TextView
+                                android:id="@+id/textViewSub1Title"
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Maths" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorOrange"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_chemistry" />
+
+                            <TextView
+                                android:id="@+id/textViewSub3Title"
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Chemistry" />
+
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorYellow"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_geography" />
+
+                            <TextView
+                                android:id="@+id/textViewSub5Title"
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Geography" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorTeal"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_chemistry" />
+
+                            <TextView
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Chemistry" />
+
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorOrange"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_physics" />
+
+                            <TextView
+                                android:id="@+id/textViewSub2Title"
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Physics" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorViolet"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_biology" />
+
+                            <TextView
+                                android:id="@+id/textViewSub4Title"
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Biology" />
+
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorOrange"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_chemistry" />
+
+                            <TextView
+                                android:id="@+id/textViewSub6Title"
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Politics" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/cardColorRed"
+                            android:minHeight="100dp"
+                            android:padding="10dp">
+
+                            <ImageView
+                                style="@style/homeCardImage"
+                                android:maxHeight="90dp"
+                                android:src="@drawable/home_ic_biology" />
+
+                            <TextView
+                                style="@style/viewParent.headerText.HomeCardTitle"
+                                android:text="Biology" />
+
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

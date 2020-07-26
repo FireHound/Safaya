@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.core.JunkFileActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_junk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_junk"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.robinhood.ticker.TickerView
+        android:id="@+id/tickerview"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:gravity="center"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar_ram"
+        tools:text="2000" />
+
+    <com.skydoves.progressview.ProgressView
+        android:id="@+id/progressView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tickerview"
+        app:layout_constraintVertical_bias="0.0"
+        app:progressView_autoAnimate="true"
+        app:progressView_colorBackground="@android:color/transparent"
+        app:progressView_colorProgress="#009688"
+        app:progressView_labelColorInner="@android:color/white"
+        app:progressView_labelColorOuter="#4CAF50"
+        app:progressView_labelSize="13sp"
+        app:progressView_labelSpace="10dp"
+        app:progressView_labelText="achieve 65%"
+        app:progressView_labelTypeface="bold"
+        app:progressView_max="100"
+        app:progressView_min="15"
+        app:progressView_padding="1dp"
+        app:progressView_progress="40"
+        app:progressView_progressFromPrevious="true"
+        app:progressView_radius="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressView1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context="tellh.com.recyclertreeview.MainActivity"
+        tools:listitem="@layout/item_file" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

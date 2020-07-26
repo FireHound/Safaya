@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:visibility="visible"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar_settings">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_header_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAD8D8"
+                android:padding="16dp"
+                android:text="About Us"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_about_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_info_24"
+                android:padding="8dp"
+                android:text="About Safaya App"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_about_firehound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_info_24"
+                android:padding="8dp"
+                android:text="About Firehound OS"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/txt_header_legal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAD8D8"
+                android:padding="16dp"
+                android:text="Policies"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:padding="8dp"
+                android:text="Privacy Policy"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_terms_and_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:padding="8dp"
+                android:text="Terms and Conditions"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_header_contribute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAD8D8"
+                android:padding="16dp"
+                android:text="Contribute or Donate"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_contribute_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/paytm"
+                android:padding="8dp"
+                android:text="Donate via PayTm"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/txt_header_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAD8D8"
+                android:padding="16dp"
+                android:text="Theme"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_theme_dark_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_brightness_5_24"
+                android:padding="8dp"
+                android:text="Dark Mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_theme_light_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_brightness_high_24"
+                android:padding="8dp"
+                android:text="Light Mode"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/txt_header_invite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAD8D8"
+                android:padding="16dp"
+                android:text="Invite Your Friends"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_invite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:drawableRight="@drawable/ic_baseline_share_24"
+                android:padding="8dp"
+                android:text="Share Safaya Now"
+                android:textSize="20sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/txt_copyrights"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:drawableLeft="@drawable/ic_firehound_logo"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Safaya 2020"-->
+<!--                android:textSize="14sp" />-->
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

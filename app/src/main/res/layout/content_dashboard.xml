@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gl="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.HomeActivity"
+    tools:showIn="@layout/app_bar_dashboard"
+    style="@style/parent.contentLayout"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="#00000000">
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/arc_left"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/linearLayout3"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/linearLayout3">-->
+
+<!--        <org.firehound.safaya.customview.ArcProgress-->
+<!--            android:id="@+id/arc_store"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            custom:arc_bottom_text="Storage"-->
+<!--            custom:arc_bottom_text_size="10dp"-->
+<!--            custom:arc_progress="10"-->
+<!--            custom:arc_stroke_width="8dip"-->
+<!--            custom:arc_text_color="#000000"-->
+<!--            custom:arc_text_size="30dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/capacity"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginBottom="49dp"-->
+<!--            android:text="20/30"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="8dip" />-->
+<!--    </RelativeLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"-->
+<!--        app:layout_constraintVertical_bias="0.285">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/card_junk"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:cardCornerRadius="15dp"-->
+<!--                app:cardPreventCornerOverlap="true">-->
+
+<!--                <net.colindodd.gradientlayout.GradientRelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:minHeight="100dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    gl:end_color="@color/gradientLightBlue"-->
+<!--                    gl:orientation="LEFT_RIGHT"-->
+<!--                    gl:start_color="@color/gradientViolet">-->
+
+<!--                    <ImageView-->
+<!--                        style="@style/homeCardImage"-->
+<!--                        android:maxHeight="60dp"-->
+<!--                        android:src="@drawable/color_delete" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textViewSub5Title"-->
+<!--                        style="@style/viewParent.headerText.HomeCardTitle"-->
+<!--                        android:text="Junk Files" />-->
+
+<!--                </net.colindodd.gradientlayout.GradientRelativeLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/card_battery"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:cardCornerRadius="15dp"-->
+<!--                app:cardPreventCornerOverlap="true">-->
+
+<!--                <net.colindodd.gradientlayout.GradientRelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:minHeight="100dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    gl:end_color="@color/gradientLightYellow2"-->
+<!--                    gl:orientation="LEFT_RIGHT"-->
+<!--                    gl:start_color="@color/gradientLightOrange2">-->
+
+<!--                    <ImageView-->
+<!--                        style="@style/homeCardImage"-->
+<!--                        android:maxHeight="60dp"-->
+<!--                        android:src="@drawable/color_battery" />-->
+
+<!--                    <TextView-->
+<!--                        style="@style/viewParent.headerText.HomeCardTitle"-->
+<!--                        android:text="Battery" />-->
+
+<!--                </net.colindodd.gradientlayout.GradientRelativeLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/card_cooler"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:cardCornerRadius="15dp"-->
+<!--                app:cardPreventCornerOverlap="true">-->
+
+<!--                <net.colindodd.gradientlayout.GradientRelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:minHeight="100dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    gl:end_color="@color/gradientLightBlue"-->
+<!--                    gl:orientation="LEFT_RIGHT"-->
+<!--                    gl:start_color="@color/gradientLightGreen">-->
+
+<!--                    <ImageView-->
+<!--                        style="@style/homeCardImage"-->
+<!--                        android:maxHeight="60dp"-->
+<!--                        android:src="@drawable/color_cool" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textViewSub6Title"-->
+<!--                        style="@style/viewParent.headerText.HomeCardTitle"-->
+<!--                        android:text="Cooler" />-->
+
+<!--                </net.colindodd.gradientlayout.GradientRelativeLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/card_ram"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:cardCornerRadius="15dp"-->
+<!--                app:cardPreventCornerOverlap="true">-->
+
+<!--                <net.colindodd.gradientlayout.GradientRelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:minHeight="100dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    gl:end_color="@color/gradientOrange3"-->
+<!--                    gl:orientation="LEFT_RIGHT"-->
+<!--                    gl:start_color="@color/gradientLightOrange2">-->
+
+<!--                    <ImageView-->
+<!--                        style="@style/homeCardImage"-->
+<!--                        android:maxHeight="60dp"-->
+<!--                        android:src="@drawable/ram" />-->
+
+<!--                    <TextView-->
+<!--                        style="@style/viewParent.headerText.HomeCardTitle"-->
+<!--                        android:text="RAM Boost" />-->
+
+
+<!--                </net.colindodd.gradientlayout.GradientRelativeLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="400dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <TextView-->
+<!--            style="@style/viewParent.headerText"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:text="Test"-->
+<!--            android:visibility="gone" />-->
+
+<!--        <me.itangqi.waveloadingview.WaveLoadingView-->
+<!--            android:id="@+id/waveLoadingView"-->
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="325dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.008"-->
+<!--            app:wlv_borderColor="#FF5722"-->
+<!--            app:wlv_borderWidth="3dp"-->
+<!--            app:wlv_progressValue="40"-->
+<!--            app:wlv_round_rectangle="true"-->
+<!--            app:wlv_shapeType="circle"-->
+<!--            app:wlv_titleCenter="Safaya"-->
+<!--            app:wlv_titleCenterSize="24sp"-->
+<!--            app:wlv_titleCenterStrokeColor="#FFFFFF"-->
+<!--            app:wlv_titleCenterStrokeWidth="3dp"-->
+<!--            app:wlv_triangle_direction="north"-->
+<!--            app:wlv_waveAmplitude="70"-->
+<!--            app:wlv_waveColor="#C36D28" />-->
+
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

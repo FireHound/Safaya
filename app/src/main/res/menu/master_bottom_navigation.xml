@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_scanner"-->
+<!--        android:icon="@android:drawable/ic_menu_sort_by_size"-->
+<!--        android:title="Scanner" />-->
+
+    <item
+        android:id="@+id/navigation_antivirus"
+        android:icon="@drawable/ic_effort"
+        android:title="Antivirus" />
+
+    <item
+        android:id="@+id/navigationHome"
+        android:icon="@drawable/ic_home"
+        android:title="Safaya" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_notification"-->
+<!--        android:icon="@android:drawable/ic_menu_search"-->
+<!--        android:title="Notifications" />-->
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_user"
+        android:title="More" />
+
+</menu>

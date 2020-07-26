@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Safaya</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Cat Names -->
+    <string-array name="targets" translatable="false">
+        <item>cache</item>
+        <item>.log</item>
+        <item>.tmp</item>
+        <item>thumb</item>
+        <item>logs</item>
+        <item>temp</item>
+        <item>tmp</item>
+        <item>thumbdata</item>
+        <item>.thumbdata</item>
+    </string-array>
+
+    <string name="copy_right" translatable="false">Copyrights 2020</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Multiview Adapter-->
+    <string name="update">Update</string>
+    <string name="reset">Reset</string>
+    <string name="configuration">Configuration</string>
+    <string name="section1_span_count">Section1 span count</string>
+    <string name="section2_span_count">Section2 span count</string>
+    <string name="enable_drag_and_drop">Enable drag and drop</string>
+    <string name="enable_swipe_to_dismiss">Enable swipe to dismiss</string>
+    <string name="enable_infinite_loading">Enable infinite loading</string>
+    <string name="page_count_for_infinite_loading">Page count for infinite loading</string>
+    <string name="layout_manager">Layout Manager</string>
+    <string name="span_count">Span Count</string>
+    <string name="orientation">Orientation</string>
+    <string name="reverse_layout">Reverse Layout</string>
+    <string name="section_decoration">Section Decoration</string>
+    <string name="header_divider_decoration">Header Divider Decoration</string>
+    <string name="item_divider_decoration">Item Divider Decoration</string>
+    <string name="section_expansion_mode">Section Expansion Mode</string>
+    <string name="section3_item">Section3 Item</string>
+    <string name="section2_item">Section2 Item</string>
+    <string name="section1_item">Section1 Item</string>
+    <string name="individual_item_expansion_mode">Individual Item Expansion Mode</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_desc">Thank you for trying out the MultiViewAdapter\'s sample app. Lets get you started.</string>
+    <string name="toolbar_icon">Toolbar icon</string>
+    <string name="configure_desc">Instead of displaying a static sample, the app lets you configure different parameters inside each sample section. Suit yourself!</string>
+    <string name="no_offline_articles">No offline articles!</string>
+    <string name="adapter">Adapter</string>
+    <string name="languages">Languages</string>
+    <string name="topics">Topics</string>
+    <string name="sources">Sources</string>
+    <string name="news_papers">News Papers</string>
+    <string name="news_channels">News Channels</string>
+    <string name="websites">Websites</string>
+    <string name="hint">Hint</string>
+    <string name="swipe_to_dismiss_this_hint">Swipe to dismiss this hint</string>
+
+    <!--  HINTS  -->
+    <string name="basic_hint">This sample showcases the basics usages of the adapter. The adapter has a simple divider decoration, which adapts well with different configuration.</string>
+    <string name="advanced_hint">This sample showcases the adapter with multiple view types and multiple sections. Each view type has its own span count, swipe direction, drag directions etc.,  </string>
+    <string name="selection_hint">This sample showcases the selection feature of the library. Tap an item to toggle the selection. Each section has its own selection mode ie., single, multiple etc., Change the selection mode inside the configuration screen.</string>
+    <string name="expansion_hint">This sample showcases the expansion feature of the library. You can expand individual item or a section. Change the expansion mode inside the configuration screen.</string>
+    <string name="decoration_hint">This sample showcases the powerful decoration api of the library. Decorations are drawn for each item and for whole sections as well. For example, divider is drawn between each section and between each item.</string>
+    <string name="tree_section_hint">This sample showcases usage the TreeSection from the library. With TreeSection you can display a nested list of data ie., comments, threads. You can change the decoration from configuration screen.</string>
+    <string name="news_feed_hint">This sample showcases a mock news feed screen.</string>
+    <string name="decoration_variant_1">Decoration Variant 1</string>
+    <string name="decoration_variant_2">Decoration Variant 2</string>
+    <string name="no_decoration">No Decoration</string>
+
+    <array name="sample_section">
+        <item>Basic</item>
+        <item>Advanced</item>
+        <item>Selection</item>
+        <item>Expansion</item>
+        <item>Decoration</item>
+        <item>Tree Section</item>
+        <item>News Feed</item>
+        <item>Features</item>
+    </array>
+
+    <array name="grid_span_count">
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+    </array>
+
+    <array name="page_count">
+        <item>Infinite</item>
+        <item>Two</item>
+        <item>Five</item>
+        <item>Ten</item>
+        <item>Fifteen</item>
+        <item>Twenty</item>
+    </array>
+
+    <array name="orientation">
+        <item>Vertical</item>
+        <item>Horizontal</item>
+    </array>
+
+    <array name="reverse_layout">
+        <item>Normal</item>
+        <item>Reverse</item>
+    </array>
+
+    <array name="layout_manager">
+        <item>Linear</item>
+        <item>Grid</item>
+    </array>
+
+    <array name="adapter_modes">
+        <item>None</item>
+        <item>Single</item>
+        <item>Multiple</item>
+        <item>Inherit</item>
+    </array>
+
+
+    <string name="txt_pp_header_one">Privacy Policy</string>
+    <string name="txt_pp_desc_one">Firehound.org built the Safaya app as an Open Source app. This SERVICE is provided by Firehound.org at no cost and is intended for use as is. This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.  If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Safaya unless otherwise defined in this Privacy Policy.</string>
+    <string name="txt_pp_header_two">Information Collection and Use</string>
+    <string name="txt_pp_desc_two">  For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy. The app does use third party services that may collect   information used to identify you.     Link to privacy policy of third party service providers used   by the app     https://www.google.com/policies/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Services href=\"https://firebase.google.com/policies/analytics\" target=\"_blank\" rel=\"noopener noreferrer\">Google Analytics for Firebase https://firebase.google.com/support/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">Firebase Crashlytics
+        Log Data
+We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.    </string>
+    <string name="txt_pp_desc_three">  For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.  The app does use third party services that may collect   information used to identify you.     Link to privacy policy of third party service providers used   by the app      https://www.google.com/policies/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Services
+        https://firebase.google.com/policies/analytics\" target=\"_blank\" rel=\"noopener noreferrer\">Google Analytics for Firebase
+    https://firebase.google.com/support/privacy/\" target=\"_blank\" rel=\"noopener
+    noreferrer\">Firebase Crashlytics
+Log Data We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.    </string>
+    <string name="txt_pp_header_four">Cookies</string>
+    <string name="txt_pp_desc_four"> Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.    This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.    </string>
+    <string name="txt_pp_header_five">Service Providers</string>
+    <string name="txt_pp_desc_five">" We may employ third-party companies and individuals due to the following reasons:
+        To facilitate our Service;     To provide the Service on our behalf;     To perform Service-related services; or     To assist us in analyzing how our Service is used.      We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.   "  </string>
+    <string name="txt_pp_header_six">Security</string>
+    <string name="txt_pp_desc_six">" We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.   "  </string>
+    <string name="txt_pp_header_seven">Links to Other Sites</string>
+    <string name="txt_pp_desc_seven"> This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.    </string>
+    <string name="txt_pp_header_eight">Children’s Privacy</string>
+    <string name="txt_pp_desc_eight"> These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.     </string>
+    <string name="txt_pp_header_nine">Changes to This Privacy Policy</string>
+    <string name="txt_pp_desc_nine"> We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.    </string>
+    <string name="txt_pp_desc_ten">This policy is effective as of 2020-07-17.
+Contact Us    If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at firehoundrom@gmail.com.</string>
+
+
+    <!--    Viewpager 2-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_views_slider">ViewsSliderActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="skip">SKIP</string>
+
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">FireHound</string>
+    <string name="slide_1_desc">Presents</string>
+
+    <string name="slide_2_title">Safaya</string>
+    <string name="slide_2_desc">Opensource Junk Cleaner</string>
+
+    <string name="slide_3_title">RAM Boost</string>
+    <string name="slide_3_desc">Boost your RAM by clearing background applications</string>
+
+    <string name="slide_4_title">Battery Boost</string>
+    <string name="slide_4_desc">Boost your battery</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="slides_ended">All slides ended. Launch your activity here!</string>
+    <string name="change_orientation">Change Orientation</string>
+    <string name="rotate">Rotate</string>
+    <string name="title_fragment_slider">Fragment Slider</string>
+    <string name="anti_clock_spin">Anti Clock Spin</string>
+    <string name="clock_spin">Clock Spin</string>
+    <string name="cube_in_depth">Cube In Depth</string>
+    <string name="cube_in_rotate">Cube In Rotate</string>
+    <string name="cube_in_scaling">Cube In Scaling</string>
+    <string name="cube_out_depth">Cube Out Depth</string>
+    <string name="cube_out_rotate">Cube Out Rotate</string>
+    <string name="cube_out_scaling">Cube Out Scaling</string>
+    <string name="depth_page">Depth Page</string>
+    <string name="depth">Depth</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="fan">Fan</string>
+    <string name="fidget_spin">"Fidget Spin "</string>
+    <string name="gate">"Gate "</string>
+    <string name="hinge">Hinge</string>
+    <string name="horizontal_flip">Horizontal Flip</string>
+    <string name="pop">Pop</string>
+    <string name="simple_transformation">Simple</string>
+    <string name="spinner_transformation">Spinner</string>
+    <string name="toss_transformation">Toss</string>
+    <string name="vertical_flip">Vertical Flip</string>
+    <string name="vertical_shut">Vertical Shut</string>
+    <string name="zoom_out">Zoom Out</string>
+
+</resources>

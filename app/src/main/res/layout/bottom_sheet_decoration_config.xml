@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Riyaz Ahamed
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_0"
+    >
+
+  <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="80dp"
+      >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+      <TextView
+          android:id="@+id/label_header"
+          style="@style/App.Text.Body.Emphasized.One"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/space_medium"
+          android:padding="@dimen/space_large"
+          android:text="@string/configuration"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          />
+
+      <CheckedTextView
+          android:id="@+id/cb_section_decoration"
+          style="@style/App.Text.Body.Primary.Two"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+          android:gravity="center_vertical"
+          android:padding="@dimen/space_large"
+          android:text="@string/section_decoration"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/label_header"
+          />
+
+      <CheckedTextView
+          android:id="@+id/cb_header_decoration"
+          style="@style/App.Text.Body.Primary.Two"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+          android:gravity="center_vertical"
+          android:padding="@dimen/space_large"
+          android:text="@string/header_divider_decoration"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/cb_section_decoration"
+          />
+
+      <CheckedTextView
+          android:id="@+id/cb_item_decoration"
+          style="@style/App.Text.Body.Primary.Two"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+          android:gravity="center_vertical"
+          android:padding="@dimen/space_large"
+          android:text="@string/item_divider_decoration"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/cb_header_decoration"
+          />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </androidx.core.widget.NestedScrollView>
+
+  <include
+      layout="@layout/include_config_button_panel"/>
+
+</FrameLayout>

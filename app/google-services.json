@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "338787385421",
+    "firebase_url": "https://firehound-safaya.firebaseio.com",
+    "project_id": "firehound-safaya",
+    "storage_bucket": "firehound-safaya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338787385421:android:c4c1362b36835978675c04",
+        "android_client_info": {
+          "package_name": "org.firehound.safaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338787385421-5d6i28j66u9b62icv85prur5qsshc2bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.firehound.safaya",
+            "certificate_hash": "15df861d325dc51996aab7323129d92d10b208bd"
+          }
+        },
+        {
+          "client_id": "338787385421-7igoa235h7re3tpdamvsdq7pce4k998i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYcckjwolc3g8wmkZOf6_60q6wSOJBNrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338787385421-7igoa235h7re3tpdamvsdq7pce4k998i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

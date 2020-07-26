@@ -21,7 +21,7 @@ __SAFAYA__ is 100% free, Open Source, ad free, and does everything it claims too
 - Decreases Battery consumption of your device.
 
 # Accessibility
-- SAFAYA caters all kinds of user base with
+- __SAFAYA__ caters all kinds of user base with
 	- Contrast accessibility enablement for visually impaired users
 	- Talkback enablement for motor impaired users
 	- Comes in 2 UI Modes
@@ -29,7 +29,7 @@ __SAFAYA__ is 100% free, Open Source, ad free, and does everything it claims too
 		- Dark Mode (Default)
 
 # Locale
-- SAFAYA comes in all 18 Indian Languages
+- __SAFAYA__ comes in all 18 Indian Languages
 
 # Features (Coming Soon)
 
@@ -38,15 +38,16 @@ __SAFAYA__ is 100% free, Open Source, ad free, and does everything it claims too
 - Server based malware protection services.
 - Zero Touch security.
 - **Enterprise Mode** for Work from Home culture to secure your devices.
+- **Fingerprint based authentication for encrypting and decrypting important office files.**
 
 # Releases
-- Version 1.0
+- Version 1.0 (BETA Release)
 
 
 # Download
-Scan the QR Code to download Safaya App with your Android Phone
+Scan the QR Code to download __Safaya__ App with your Android Phone
 
-![qrcode](https://i.imgur.com/Pn89pXw.png) 
+![qrcode](https://i.imgur.com/3ET8gba.png) 
 
 **Visit**
 
