@@ -8,6 +8,19 @@ __SAFAYA__ powered by __FireHound__ is a simple one shot single light weight app
 
 __SAFAYA__ is 100% free, Open Source, ad free, and does everything it claims too.
 
+
+# Screenshots
+
+__NEON THEME__
+
+![logo](https://i.imgur.com/eDc1Lk9.png)
+
+
+__FLAT THEME__
+
+![logo](https://i.imgur.com/G9Y7vaw.png)
+
+
 # Features
 
 - Cleans cache files.
