@@ -1,0 +1,6 @@
+{
+  "category": "Lifestyle",
+  "permissions": [10],
+  "origin": "1600 Amphitheatre Parkway, Mountain View 94043"
+  "isRisky": false
+}
