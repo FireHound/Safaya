@@ -1,0 +1,6 @@
+{
+  "category": "Tools",
+  "permissions": [5, 6, 10],
+  "origin": "Unknown"
+  "isRisky": false
+}

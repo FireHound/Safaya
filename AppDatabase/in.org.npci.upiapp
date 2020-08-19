@@ -1,0 +1,6 @@
+{
+  "category": "Finance",
+  "permissions": [4, 6, 9, 10, 11],
+  "origin": "Unknown"
+  "isRisky": false
+}

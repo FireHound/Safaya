@@ -1,0 +1,6 @@
+{
+  "category": "Communication",
+  "permissions": [4, 5, 7, 10],
+  "origin": "Skype Software S.à.r.l, 23 – 29 Rives de Clausen, L-2165 Luxembourg"
+  "isRisky": false
+}

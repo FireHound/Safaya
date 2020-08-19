@@ -1,0 +1,6 @@
+{
+  "category": "Business",
+  "permissions": [4, 7, 10],
+  "origin": "One Microsoft Way"
+  "isRisky": false
+}
